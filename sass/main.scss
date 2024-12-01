@@ -99,7 +99,7 @@ a {
     }
     .hero {
       .hero-content {
-        overflow-x: scroll;
+        // overflow-x: scroll;
         display: flex;
         align-items: center;
         gap: 20px;
@@ -119,6 +119,7 @@ a {
           height: 320px;
           border-radius: 12px;
           p {
+            width: 240px;
             font-family: Inter;
             font-size: 20px;
             font-weight: 600;
