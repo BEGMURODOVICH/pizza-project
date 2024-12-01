@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 425px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  header {
+    margin-top: 10px;
+  }
+  header .header-content {
+    border: 1px solid #f3f3f3;
+  }
+  header .header-content .head-content {
+    margin-top: 10px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .header-content .head-content .logo-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  header .category {
+    margin: 20px 0;
+  }
+  header .category .category-content {
+    overflow-x: visible;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  header .category .category-content li {
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    padding: 8px 12px;
+  }
+  header .category .category-content li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
