@@ -76,6 +76,8 @@ a {
     padding: 0 0 0 20px;
   }
   header {
+    overflow-x: hidden;
+
     margin-top: 10px;
     .header-content {
       .head-content {
@@ -94,7 +96,7 @@ a {
       }
     }
     .category {
-      margin: 80px 0 0 0;
+      margin: 20px 0;
       .category-content::-webkit-scrollbar {
         display: none;
       }
@@ -160,11 +162,10 @@ a {
     // modal
 
     .modal-accaunt {
-      overflow-x: hidden;
       transform: translateX(425px);
       transition: all ease 0.5s;
 
-      top: 65px;
+      top: 75px;
       bottom: 0;
       right: 0;
       left: 0;
