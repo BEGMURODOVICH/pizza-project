@@ -24,15 +24,19 @@ a {
     margin: 0 auto;
     padding: 0 20px;
   }
+  .container-slider {
+    max-width: 425px;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+  }
   header {
     margin-top: 10px;
   }
-  header .header-content {
-    border: 1px solid #f3f3f3;
-  }
   header .header-content .head-content {
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
     margin-top: 10px;
-    padding: 15px 20px;
+    padding: 10px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,10 +47,14 @@ a {
     gap: 12px;
   }
   header .category {
-    margin: 20px 0;
+    margin: 80px 0 0 0;
+  }
+  header .category .category-content::-webkit-scrollbar {
+    display: none;
   }
   header .category .category-content {
     overflow-x: scroll;
+    scrollbar-width: none;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -57,11 +65,23 @@ a {
     padding: 8px 12px;
   }
   header .category .category-content li a {
+    color: #191919;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
     display: flex;
     align-items: center;
     gap: 8px;
   }
+  header .hero .hero-content::-webkit-scrollbar {
+    display: none;
+  }
   header .hero .hero-content {
+    scrollbar-width: none;
     overflow-x: scroll;
     display: flex;
     align-items: center;
@@ -93,6 +113,103 @@ a {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #fff;
+  }
+  header .modal-accaunt {
+    overflow-x: hidden;
+    transform: translateX(425px);
+    transition: all ease 0.5s;
+    top: 65px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background: #fff;
+  }
+  header .modal-accaunt .registration {
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 20px 20px 20px 0;
+  }
+  header .modal-accaunt .registration a {
+    color: #191919;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  header .modal-accaunt .modal-content {
+    padding: 20px 0;
+    display: grid;
+    row-gap: 20px;
+  }
+  header .modal-accaunt .modal-content li a {
+    color: #191919;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  header .modal-accaunt .contact {
+    width: 100%;
+    position: absolute;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 20px 0 75px;
+    display: grid;
+    row-gap: 20px;
+  }
+  header .modal-accaunt .contact li a {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #191919;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  header .modal-accaunt .contact li .sm {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  header .modal-accaunt .contact li .sm a {
+    display: flex;
+    align-items: center;
+  }
+  header .modal-accaunt .work-time {
+    text-align: center;
+    width: 100%;
+    padding: 16px 0;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #a5a5a5;
+  }
+  header .modal-accaunt-active {
+    display: block;
+    transform: translateX(0);
+    transition: all ease 0.5s;
   }
   main .location-section {
     background-color: #fff;
