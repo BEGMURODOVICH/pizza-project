@@ -28,11 +28,14 @@ a {
   .container-slider {
     max-width: 425px;
     margin: 0 auto;
-    padding: 0 0 0 20px;
+    padding: 0 10px 0 10px;
   }
   header {
     overflow-x: hidden;
     margin-top: 10px;
+  }
+  header .header-content {
+    background-color: #fff;
   }
   header .header-content .head-content {
     border-top: 1px solid #f3f3f3;
@@ -119,6 +122,7 @@ a {
   header .modal-accaunt {
     transform: translateX(425px);
     transition: all ease 0.5s;
+    display: none;
     top: 75px;
     bottom: 0;
     right: 0;
@@ -212,6 +216,37 @@ a {
     transform: translateX(0);
     transition: all ease 0.5s;
   }
+  main .cart-icon {
+    position: fixed;
+    right: -10px;
+    bottom: 0;
+  }
+  main .cart-icon img:nth-child(2) {
+    transform: translate(-53px, -25px);
+  }
+  main .cart-icon .circle {
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: #ff7010 1px solid;
+    position: relative;
+    left: 45px;
+    bottom: 73px;
+  }
+  main .cart-icon .circle .cart-quantity {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ff7010;
+  }
   main .location-section {
     background-color: #fff;
     margin: 33px 0;
@@ -251,7 +286,11 @@ a {
     background: #ff7010;
     border-radius: 6px;
   }
+  main #pizza {
+    transition: all ease 0.3s;
+  }
   main .product-section {
+    transition: all ease 0.3s;
     margin: 20px 0;
   }
   main .product-section .section-top {
