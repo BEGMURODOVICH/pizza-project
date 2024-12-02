@@ -118,7 +118,7 @@ a {
   header .modal-accaunt {
     transform: translateX(425px);
     transition: all ease 0.5s;
-    top: 75/px;
+    top: 75px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -249,6 +249,171 @@ a {
     padding: 14px 8px;
     background: #ff7010;
     border-radius: 6px;
+  }
+  main .product-section {
+    margin: 20px 0;
+  }
+  main .product-section .section-top {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  main .product-section .section-top p {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191919;
+  }
+  main .product-section .section-top .filter-btn {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191919;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    padding: 10px 12px;
+    background-color: #fff;
+  }
+  main .product-section .product-content li {
+    margin: 12px 0;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    background-color: #fff;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  main .product-section .product-content li h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191919;
+    text-align-last: left;
+  }
+  main .product-section .product-content li p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191919;
+    margin: 8px 0 10px;
+  }
+  main .product-section .product-content li .cost {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  main .product-section .product-content li .cost .new-price {
+    background: #ffeee2;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191919;
+    color: #ff7010;
+  }
+  main .product-section .product-content li .cost .old-price {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191919;
+    color: #a5a5a5;
+    text-decoration: line-through;
+  }
+  footer {
+    padding: 24px 0;
+    background: #fff;
+  }
+  footer .foot .logo-footer {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  footer .foot .logo-footer p {
+    font-size: 22px;
+  }
+  footer .foot .modal-content {
+    padding: 20px 0;
+    display: grid;
+    row-gap: 20px;
+  }
+  footer .foot .modal-content li a {
+    color: #191919;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  footer .foot .contact {
+    padding: 20px 0 20px;
+    display: grid;
+    row-gap: 20px;
+    border-bottom: #f3f3f3 solid 1px;
+  }
+  footer .foot .contact li a {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #191919;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  footer .foot .contact li .sm {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  footer .foot .contact li .sm a {
+    display: flex;
+    align-items: center;
+  }
+  footer .foot .footer-span {
+    padding-top: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191919;
   }
 }
 
