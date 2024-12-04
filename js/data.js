@@ -1,4 +1,4 @@
-const Products = [
+const products = [
   {
     id: 1,
     name: "Чикен Сладкий Чили",
@@ -9,7 +9,7 @@ const Products = [
   },
   {
     id: 2,
-    name: "EASY PEASY огуречный расколбас",
+    name: "PEASY огуречный расколбас",
     description: "Огурцы маринованные, Пепперони...",
     price: 549,
     category: "pizza",
@@ -204,3 +204,4 @@ const Products = [
   },
   { id: 30, name: "Mirinda", description: "", price: 99, category: "drinks" },
 ];
+localStorage.setItem("products", JSON.stringify(products));
